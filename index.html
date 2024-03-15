@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas Drawing</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h4>Canvas Drawing</h4>
+    <img id="sourceImage" src="https://see.fontimg.com/api/renderfont4/DOLPD/eyJyIjoiZnMiLCJoIjo5NSwidyI6MTI1MCwiZnMiOjc2LCJmZ2MiOiIjMDAwMDAwIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/UnViaVhSYWRpY2Fs/awakenning-personal-use.png" alt="Image">
+
+    <canvas id="canvas"></canvas>
+    <canvas id="_canvas"></canvas>
+    <p id="N">
+        <label>Number of slices:</label>
+        <input type="range" value="16" min="2" max="50" autocomplete="off" step="2">
+        <span>16</span>
+    </p>
+    <p id="S">
+        <label>Smoothing factor:</label>
+        <input type="range" value="5" min="1" max="50" autocomplete="off" step="1">
+        <span>5</span>
+    </p>
+</body>
+</html>
